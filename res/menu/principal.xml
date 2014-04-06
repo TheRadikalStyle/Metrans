@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.theradikalsoftware.metrans.Principal" >
+    <item android:id="@+id/exit" android:title="@string/menu_principal_salir"></item>
+    <item android:id="@+id/about" android:title="@string/menu_principal_about"></item>
+
+</menu>
