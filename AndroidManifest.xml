@@ -29,7 +29,10 @@
         <activity
             android:name="com.theradikalsoftware.metrans.AboutMe"
             android:label="@string/title_activity_about_me" >
-            
+        </activity>
+        <activity
+            android:name="com.theradikalsoftware.metrans.Calc"
+            android:label="@string/title_activity_calc" >
         </activity>
     </application>
 

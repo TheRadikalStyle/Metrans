@@ -4,5 +4,6 @@
     tools:context="com.theradikalsoftware.metrans.Principal" >
     <item android:id="@+id/exit" android:title="@string/menu_principal_salir"></item>
     <item android:id="@+id/about" android:title="@string/menu_principal_about"></item>
+    <item android:id="@+id/calc" android:title="Calculadora"></item>
 
 </menu>

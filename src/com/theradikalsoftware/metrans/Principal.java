@@ -49,6 +49,9 @@ public class Principal extends ActionBarActivity {
 			About();
 			return true;
 		}
+		if(id==R.id.calc){
+			Calc();
+		}
 		return super.onOptionsItemSelected(item);
 	}
 
@@ -79,6 +82,10 @@ public class Principal extends ActionBarActivity {
 	private void About(){
 		 Intent secondIntent = new Intent().setClass(Principal.this, AboutMe.class);
 	        startActivity(secondIntent);
+	}
+	private void Calc(){
+		Intent thirdIntent = new Intent().setClass(Principal.this, Calc.class);
+				startActivity(thirdIntent);
 	}
 
 }
