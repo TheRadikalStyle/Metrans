@@ -1082,7 +1082,7 @@ containing a value of this type.
         public static final int splashscreen=0x7f020059;
     }
     public static final class id {
-        public static final int about=0x7f06004c;
+        public static final int about=0x7f06004b;
         public static final int action_bar=0x7f06001c;
         public static final int action_bar_activity_content=0x7f060015;
         public static final int action_bar_container=0x7f06001b;
@@ -1094,7 +1094,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06004a;
+        public static final int action_settings=0x7f060049;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1102,10 +1102,9 @@ containing a value of this type.
         public static final int btnDiv=0x7f060045;
         public static final int btnMult=0x7f060044;
         public static final int btnSub=0x7f060043;
-        public static final int calc=0x7f06004d;
+        public static final int calc=0x7f06004c;
         public static final int checkbox=0x7f06002d;
         public static final int collapseActionView=0x7f06000d;
-        public static final int container=0x7f06003c;
         public static final int default_activity_button=0x7f060028;
         public static final int dialog=0x7f06000e;
         public static final int disableHome=0x7f060008;
@@ -1114,7 +1113,7 @@ containing a value of this type.
         public static final int end=0x7f060013;
         public static final int etNum1=0x7f06003f;
         public static final int etNum2=0x7f060040;
-        public static final int exit=0x7f06004b;
+        public static final int exit=0x7f06004a;
         public static final int expand_activities_button=0x7f060026;
         public static final int expanded_menu=0x7f06002c;
         public static final int home=0x7f060014;
@@ -1132,7 +1131,7 @@ containing a value of this type.
         public static final int normal=0x7f060000;
         public static final int op=0x7f06003d;
         public static final int op1=0x7f060047;
-        public static final int progressBar1=0x7f060049;
+        public static final int progressBar1=0x7f060048;
         public static final int progress_circular=0x7f060018;
         public static final int progress_horizontal=0x7f060019;
         public static final int radio=0x7f06002f;
@@ -1153,7 +1152,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f06001e;
         public static final int submit_area=0x7f060039;
         public static final int tabMode=0x7f060002;
-        public static final int textView=0x7f060048;
+        public static final int textView=0x7f06003c;
         public static final int title=0x7f06002b;
         public static final int top_action_bar=0x7f060020;
         public static final int tvResult=0x7f060046;

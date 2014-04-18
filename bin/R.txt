@@ -237,7 +237,7 @@ int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable background 0x7f020057
 int drawable metrans_logo 0x7f020058
 int drawable splashscreen 0x7f020059
-int id about 0x7f06004c
+int id about 0x7f06004b
 int id action_bar 0x7f06001c
 int id action_bar_activity_content 0x7f060015
 int id action_bar_container 0x7f06001b
@@ -249,7 +249,7 @@ int id action_context_bar 0x7f06001d
 int id action_menu_divider 0x7f060016
 int id action_menu_presenter 0x7f060017
 int id action_mode_close_button 0x7f060024
-int id action_settings 0x7f06004a
+int id action_settings 0x7f060049
 int id activity_chooser_view_content 0x7f060025
 int id always 0x7f06000b
 int id beginning 0x7f060011
@@ -257,10 +257,9 @@ int id btnAdd 0x7f060042
 int id btnDiv 0x7f060045
 int id btnMult 0x7f060044
 int id btnSub 0x7f060043
-int id calc 0x7f06004d
+int id calc 0x7f06004c
 int id checkbox 0x7f06002d
 int id collapseActionView 0x7f06000d
-int id container 0x7f06003c
 int id default_activity_button 0x7f060028
 int id dialog 0x7f06000e
 int id disableHome 0x7f060008
@@ -269,7 +268,7 @@ int id edit_query 0x7f060030
 int id end 0x7f060013
 int id etNum1 0x7f06003f
 int id etNum2 0x7f060040
-int id exit 0x7f06004b
+int id exit 0x7f06004a
 int id expand_activities_button 0x7f060026
 int id expanded_menu 0x7f06002c
 int id home 0x7f060014
@@ -287,7 +286,7 @@ int id none 0x7f060010
 int id normal 0x7f060000
 int id op 0x7f06003d
 int id op1 0x7f060047
-int id progressBar1 0x7f060049
+int id progressBar1 0x7f060048
 int id progress_circular 0x7f060018
 int id progress_horizontal 0x7f060019
 int id radio 0x7f06002f
@@ -308,7 +307,7 @@ int id showTitle 0x7f060006
 int id split_action_bar 0x7f06001e
 int id submit_area 0x7f060039
 int id tabMode 0x7f060002
-int id textView 0x7f060048
+int id textView 0x7f06003c
 int id title 0x7f06002b
 int id top_action_bar 0x7f060020
 int id tvResult 0x7f060046

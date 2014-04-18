@@ -6,6 +6,7 @@ import java.util.TimerTask;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -18,7 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class SplashScreen extends ActionBarActivity {
+public class SplashScreen extends Activity {
 
 	private long splashDelay = 6000; //milisegundos -> 	6 segundos	
 	
@@ -30,11 +31,11 @@ public class SplashScreen extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        if (savedInstanceState == null) {
+       /* if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
-        }
+        }*/
         
         nm1 = (NotificationManager)getSystemService(NOTIFICATION_SERVICE); //Declaración de notificación
         
