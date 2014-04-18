@@ -49,6 +49,7 @@ public class SplashScreen extends ActionBarActivity {
    	Timer timer = new Timer();
    	timer.schedule(task, splashDelay); //Pasando los 6 segundos entramos a la tarea en si
      noti1(); //Llamamos a la función para crear la notificacion   
+     
         
     }
 
@@ -99,12 +100,13 @@ public class SplashScreen extends ActionBarActivity {
 		/*Fin de contenido de la notificacion*/
 		PendingIntent intencionPendiente = PendingIntent.getActivity(
 		          this, 0, new Intent(this, Principal.class), 0);
-		notificacion.setLatestEventInfo(this, "Somos tan chingones",
-		       "que tenemos notificaciones aqui", intencionPendiente);
+		notificacion.setLatestEventInfo(this, "Metrans",
+		       "Pulsa para ir a la app", intencionPendiente);
 
 		 nm1.notify(ID_NOTIFICACION_CREAR, notificacion); //Enviamos la notificacion al status bar
 		notificacion.defaults |= Notification.DEFAULT_VIBRATE; //Agregando algo de vibracion... Espero y funcione
 		notificacion.defaults |= Notification.DEFAULT_SOUND; //Afregando algo de sonido... Espero y este si funcione
+	  
 	}
 
 }
