@@ -14,7 +14,7 @@
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/cerrar_about"
         android:layout_centerHorizontal="true"
         android:onClick="revisarIntegridad"
         android:orientation="vertical" >

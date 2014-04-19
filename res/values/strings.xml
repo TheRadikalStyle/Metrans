@@ -10,5 +10,10 @@
     <string name="menu_principal_about">Acerca de</string>
     <string name="title_activity_calc">Calc</string>
     <string name="title_activity_secundaria">Secundaria</string>
+    <string name="credits_david">David Ochoa</string>
+    <string name="devBy">Desarrollado por:</string>
+    <string name="credits_consta">Constantino Mora</string>
+    <string name="credits_alexis">Alexis Rivera</string>
+    <string name="cerrar">Cerrar</string>
 
 </resources>
