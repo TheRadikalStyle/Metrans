@@ -1,5 +1,10 @@
 package com.theradikalsoftware.metrans;
 
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -17,6 +22,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.os.Build;
+import au.com.bytecode.opencsv.CSVReader;
 
 public class Principal extends Activity  implements OnTouchListener{
 	
@@ -95,7 +101,8 @@ public class Principal extends Activity  implements OnTouchListener{
 	private void Exit(){
 		finish();
 		android.os.Process.killProcess(android.os.Process.myPid());
-		super.onDestroy();;
+		super.onDestroy();
+		//nm1.cancel();
 	}
 	
 	private void About(){
@@ -155,6 +162,23 @@ public class Principal extends Activity  implements OnTouchListener{
 	public void Continuar(View v){
 		Intent conti = new Intent().setClass(Principal.this,Secundaria.class);
 		startActivity(conti);
+	}
+	
+	
+	public void revisarIntegridad(View v) throws IOException{
+		CSVReader reader;
+		try {
+			reader = new CSVReader(new FileReader("yourfile.csv"));
+			 String [] nextLine;
+			    while ((nextLine = reader.readNext()) != null) {
+			        // nextLine[] is an array of values from the line
+			        System.out.println(nextLine[0] + nextLine[1] + "etc...");
+			    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	   
 	}
 	
 	/*@Override

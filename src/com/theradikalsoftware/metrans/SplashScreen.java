@@ -51,7 +51,7 @@ public class SplashScreen extends Activity {
    	timer.schedule(task, splashDelay); //Pasando los 6 segundos entramos a la tarea en si
      noti1(); //Llamamos a la función para crear la notificacion   
      
-        
+       // nm1.cancel(noti1);
     }
 
 

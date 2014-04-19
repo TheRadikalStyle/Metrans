@@ -1082,7 +1082,7 @@ containing a value of this type.
         public static final int splashscreen=0x7f020059;
     }
     public static final class id {
-        public static final int about=0x7f060052;
+        public static final int about=0x7f060051;
         public static final int action_bar=0x7f06001c;
         public static final int action_bar_activity_content=0x7f060015;
         public static final int action_bar_container=0x7f06001b;
@@ -1094,7 +1094,6 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f060050;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1103,7 +1102,7 @@ containing a value of this type.
         public static final int btnMult=0x7f060044;
         public static final int btnSub=0x7f060043;
         public static final int button1=0x7f060048;
-        public static final int calc=0x7f060053;
+        public static final int calc=0x7f060052;
         public static final int checkbox=0x7f06002d;
         public static final int collapseActionView=0x7f06000d;
         public static final int cont=0x7f06004b;
@@ -1116,7 +1115,7 @@ containing a value of this type.
         public static final int end=0x7f060013;
         public static final int etNum1=0x7f06003f;
         public static final int etNum2=0x7f060040;
-        public static final int exit=0x7f060051;
+        public static final int exit=0x7f060050;
         public static final int expand_activities_button=0x7f060026;
         public static final int expanded_menu=0x7f06002c;
         public static final int export=0x7f06004e;
@@ -1367,6 +1366,7 @@ containing a value of this type.
         public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c002f;
         public static final int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item=0x7f0c0062;
         public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0028;
+        public static final int TextDialog=0x7f0c008d;
         /**  Themes in the "Theme.AppCompat" family will contain an action bar by default.
          If Holo themes are available on the current platform version they will be used.
          A limited Holo-styled action bar will be provided on platform versions older
