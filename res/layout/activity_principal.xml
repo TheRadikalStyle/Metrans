@@ -10,4 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.theradikalsoftware.metrans.Principal" >
 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/intArch"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:text="Integridad del archivo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/impAlm"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:text="Importar almacenes" />
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="Continuar"
+        android:text="Continuar" />
+
 </RelativeLayout>

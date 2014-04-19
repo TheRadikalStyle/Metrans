@@ -13,6 +13,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.os.Build;
@@ -23,6 +24,8 @@ public class Principal extends Activity  implements OnTouchListener{
 		public boolean move=false,move2=false, move3=false;
 		private RelativeLayout l;
 		StringBuilder builder= new StringBuilder();
+		
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,7 @@ public class Principal extends Activity  implements OnTouchListener{
 		RelativeLayout  l = (RelativeLayout)findViewById(R.id.op1);
 		l.setOnTouchListener(this);
 		setContentView(l);
+		
 
 		/*if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
@@ -102,7 +106,9 @@ public class Principal extends Activity  implements OnTouchListener{
 		Intent thirdIntent = new Intent().setClass(Principal.this, Calc.class);
 				startActivity(thirdIntent);
 	}
-
+	
+	
+/*Funcion administradora del evento Touch para swiping*/
 	@Override
 	public boolean onTouch(View v, MotionEvent event) {
 		// TODO Auto-generated method stub
@@ -143,6 +149,12 @@ public class Principal extends Activity  implements OnTouchListener{
   		move2=false;
   		}
   		return true;
+	}
+	
+	/*Funcion para cambiar de actividad*/
+	public void Continuar(View v){
+		Intent conti = new Intent().setClass(Principal.this,Secundaria.class);
+		startActivity(conti);
 	}
 	
 	/*@Override

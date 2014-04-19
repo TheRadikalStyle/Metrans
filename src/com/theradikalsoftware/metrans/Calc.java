@@ -16,7 +16,7 @@ import android.widget.Toast;
 import android.app.*;
 import android.content.Intent;
 
-public class Calc extends Principal implements OnClickListener ,OnTouchListener{
+public class Calc extends Activity implements OnClickListener ,OnTouchListener{
 
 	  EditText etNum1;
 	  EditText etNum2;
@@ -109,6 +109,8 @@ public class Calc extends Principal implements OnClickListener ,OnTouchListener{
 	    tvResult.setText(num1 + " " + oper + " " + num2 + " = " + result);
 	  }
 	  
+	  
+	 /*Función que administra los eventos touch para hacer swiping*/ 
 	  @Override
 	  public boolean onTouch(View v, MotionEvent me) {
 	  		

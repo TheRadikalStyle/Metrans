@@ -9,5 +9,6 @@
     <string name="title_activity_about_me">AboutMe</string>
     <string name="menu_principal_about">Acerca de</string>
     <string name="title_activity_calc">Calc</string>
+    <string name="title_activity_secundaria">Secundaria</string>
 
 </resources>
